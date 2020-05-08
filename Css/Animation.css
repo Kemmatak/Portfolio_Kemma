@@ -1,0 +1,17 @@
+
+.casolink img{
+    transition: 0.2s;
+}
+
+.casolink:hover img{
+    margin-left: 20px;
+}
+
+.casolink:hover a{
+    color: #7184AA;
+}
+
+.link:hover a{
+    color: #0091FF;
+}
+

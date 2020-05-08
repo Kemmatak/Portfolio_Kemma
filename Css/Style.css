@@ -1,0 +1,316 @@
+  @font-face {
+    font-family: "playfair";
+    src: url("../Fonts/Playfair.ttf");
+  }
+
+  @font-face {
+    font-family: "sourcesans-light";
+    src: url("../Fonts/SourceSans-Light.ttf");
+  }
+
+  @font-face {
+    font-family: "sourcesans-regular";
+    src: url("../Fonts/SourceSans-Regular.ttf");
+  }
+
+
+  @font-face {
+    font-family: "sourcesans-medium";
+    src: url("../Fonts/SourceSans-SemiBold.ttf");
+  }
+
+
+body {
+    margin: 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "playfair";
+}
+.apartados{
+    display: flex;
+}
+.apartados a{
+    padding-right: 50px;
+    font-size: 18px;
+    text-decoration: none;
+    font-family: "sourcesans-regular";
+    cursor: pointer;
+    color: #5C7CBB;
+}
+
+.japones{
+    color: #5C7CBB;
+    padding-left: 16px;
+}
+
+.nombre{
+    color: #7C1ECB;
+    padding-left: 16px;
+}
+
+header{
+    background-color: white;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #30456F;
+    
+}
+
+h1{
+    font-size: 32px;
+    margin-top: auto;
+    margin-bottom: 1%;
+    padding-left: 2%;
+}
+
+
+.retrato{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+
+}
+
+.foto img{
+    width: 78%;
+    object-fit: cover;
+    height: 78%;
+    border-radius: 56px;
+    -webkit-box-shadow: -29px 18px 91px -4px rgba(0,0,0,0.26);
+    -moz-box-shadow: -29px 18px 91px -4px rgba(0,0,0,0.26);
+    box-shadow: -29px 18px 91px -4px rgba(0,0,0,0.26);
+    margin-top: 2%;
+    margin-left: 0;
+    margin-right: 12%;
+    margin-bottom: 9%;
+}
+
+header p{
+    font-size: 72px;
+    color: #25385D;
+    font-family: "playfair";
+    margin-top: 0;
+    margin-bottom: 0;
+
+} 
+
+.Textoheader p{
+    display: flex;
+    margin-right: 30px;
+    font-size: 40px;
+
+}
+.proyectos{
+    position: relative;
+}
+.proyectos p{
+    font-family: "playfair";
+    color: #90A6D1;
+    position: absolute;
+    transform: rotate(-90deg);
+    font-size: 20px;
+    top: -198px;
+    left: 39.6%;
+}
+
+.line{
+    position: absolute;
+    width: 2px;
+    height: 120px;
+    margin: 0 auto;
+    background-color: #90A6D1;
+    top: -119px;
+    left: 44%;
+}
+
+
+
+main{
+    padding-left: 72px;
+    padding-right: 72px;
+    background-color: #90A6D1;
+}
+
+.casos-de-estudio {
+    text-align: center;
+    font-family: "sourcesans-light";
+    font-size: 24px;
+    margin-bottom: 6%;
+    padding-left: 26%;
+    padding-right: 26%;
+    padding-top: 2%;
+    color: white;
+}
+
+h2{
+    font-size: 40px;
+    font-family: "Playfair";
+    font-weight: 500;
+}
+
+.ejercicios a{
+    font-family: "sourcesans-medium";
+    color: white;
+    font-size: larger;
+    text-decoration: none;
+}
+h3{
+    font-family: "playfair";
+    font-size: 48px;
+    color: white;
+    font-weight: 500;
+    margin: 0;
+}
+.ejercicios p{
+    font-family: "sourcesans-light";
+    font-size: 18px;
+    color: white;
+
+}
+
+.arrow path{
+    fill: white;
+}
+
+
+.caso1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 7%; 
+}
+
+img{
+    object-fit: cover;
+}
+.caso1 .image{
+    margin-right: 90px;
+    
+}
+
+.caso2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 7%;
+    margin-top: 7%;
+
+}
+
+.caso2 .image2{
+    margin-right: 90px;
+}
+
+.caso3{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 7%;
+    margin-top: 7%;
+
+}
+
+.caso3 img{
+    margin-right: 90px;
+}
+
+footer{
+    background-color: #30456F;
+    color: white;
+    padding-top: 2%;
+    padding-left: 72px;
+    padding-right: 72px;
+
+
+}
+
+.contact{
+    text-align: center;
+    padding-right: 25%;
+    padding-left: 25%;
+}
+
+.contact p{
+    font-family: "sourcesans-light";
+    font-size: 24px;
+}
+
+.links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.links img{
+    margin-right: 10px;
+  
+}
+
+h4{
+    font-family: "playfair";
+    font-weight: 700;
+    font-size: 24px;
+}
+
+
+
+.casolink img{
+    width: 8%;
+    height: auto;
+    margin-left: 8px;   
+}
+
+.datos{
+    font-family: "sourcesans-light";
+    display: flex;
+    justify-content: space-around;
+    padding-top: 0;
+}
+
+.datos h1{
+    font-size: 20px;
+}
+
+.datos p{
+    font-size: 20px;
+}
+
+.editor{
+    font-family: "sourcesans-light";
+    font-size: 16px;
+    text-align: center;
+    padding-top: 2%;
+    padding-bottom: 0.1%;
+}
+.sociales a{
+    color: white;
+    font-size: larger;
+    text-decoration: none;
+    padding-right: 16px;
+}
+
+.mobile-screen {
+    display: none;
+  }
+  
+  @media only screen and (max-width: 768px) {
+    .mobile-screen {
+      display: flex;
+      width: 100%;
+      height: 100vh;
+      align-items: center;
+      justify-content: center;
+    }
+  
+    .desktop-screen {
+      display: none;
+    }
+  
+  }
